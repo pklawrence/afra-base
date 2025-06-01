@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Sun, Moon } from 'lucide-react';
 
 const DarkMode = ({isDarkMode, cb}) => {

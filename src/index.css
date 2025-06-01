@@ -1,0 +1,83 @@
+
+@import "tailwindcss";
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 30px;
+}
+
+.bodyLight {
+    background-color: aliceblue;
+}
+
+.bodyDark {
+    background-color: black;
+}
+
+.navbar {
+    padding: 3rem 24rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-link {
+    padding: 0.6rem 1rem;
+    font-size: 1.0rem;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    text-decoration: aliceblue;
+    color: gray;
+    
+}
+.dark{
+    color: white;
+    font-size: x-large;
+}
+.content{
+    padding: 1.6rem 25rem;
+    position: sticky;
+    font-family: sans-serif;
+}
+
+
+
+.intro{
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    color: grey;
+    font-size: x-large;
+
+}
+.field{
+    color: darkgrey;
+    font-size: 1.0rem;
+    padding: 0.6rem 0rem;
+}
+
+.brief{
+    color: gray;
+    font-size: 1rem;
+    justify-content: space-between;
+    word-spacing: 0.2rem;
+    line-height: 1.5rem;
+}
+.seperate{
+    padding-top: 0.6rem;
+}
+.emphasis{
+    font-style: italic;
+    color: darkgrey;
+}
+
+.focus{
+    text-decoration: underline;
+}

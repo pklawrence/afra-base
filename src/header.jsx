@@ -1,12 +1,12 @@
-
+import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
-        <nav className="navbar">
+        <nav className="sticky px-108 py-5">
             <div>
-            <a className="nav-link" href="#home">Home</a>
-            <a className="nav-link" href="#about">About</a>
-            <a className="nav-link" href="#projects">Projects</a>
-            <a className="nav-link" href="#contact">Contact</a>
+            <Link className="text-gray-500 " to= '/'>home</Link>
+            <Link className="text-gray-500 p-4" to= '/about'>about</Link>
+            <Link className="text-gray-500" to= '/details/:id'>blog</Link>
+
             </div>    
             
         </nav>

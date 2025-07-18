@@ -1,30 +1,31 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 .anim {
-    opacity: 0;
-    transform: translateY(30px);
-    animation: moveup 0.5s linear forwards;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
 }
-@keyframes moveup{
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/* 
+body[data-theme="light"] {
+  --background-color: #ffffff;
+  --text-color: #333333;
 }
 
+body[data-theme="dark"] {
+  --background-color: #333333;
+  --text-color: #ffffff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+} */

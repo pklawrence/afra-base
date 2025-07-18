@@ -1,19 +1,17 @@
 import Darkmode from "./Darkmode";
 function MyName() {
-
-
   return (
-    <main className="sticky px-108 py-5 font-sans anim  ">
+    <main className="sticky px-108 py-5 font-sans anim text-gray-500 dark:text-white ">
       <div className=" flex space-x-105">
         <div className="">
-          <div className={"text-gray-500 text-2xl"}>Lawrence Cudjoe</div>
+          <div className={" text-2xl"}>Lawrence Cudjoe</div>
           <div className="text-gray-400 ">Frontend Developer</div>
         </div>
         <div className="">
-            <Darkmode />
+          <Darkmode />
         </div>
       </div>
-      <div className={"text-gray-500 text-justify py-4 "}>
+      <div className={" text-justify py-4 "}>
         <div>
           I specialize in crafting web applications that prioritize user
           experience. Leveraging{" "}
